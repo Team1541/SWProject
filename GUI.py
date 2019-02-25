@@ -1,4 +1,5 @@
 import os
+<<<<<<< HEAD
 os.environ['DISPLAY'] = 'localhost:0.0'
 import threading
 
@@ -363,3 +364,13 @@ class Ui_Dialog(object):
         _translate = QtCore.QCoreApplication.translate
         Dialog.setWindowTitle(_translate("Dialog", "ERROR"))
         self.label.setText(_translate("Dialog", Msg))
+=======
+import matplotlib
+os.environ['DISPLAY'] = 'localhost:1.0'
+matplotlib.use('Qt5Agg')
+import matplotlib.pyplot as plt
+import numpy as np
+plt.plot(np.arange(100))
+plt.show()
+
+>>>>>>> origin/master
