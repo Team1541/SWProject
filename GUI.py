@@ -1,7 +1,5 @@
 import os
-<<<<<<< HEAD
 os.environ['DISPLAY'] = 'localhost:0.0'
-import threading
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtCore import pyqtSlot, QThread
