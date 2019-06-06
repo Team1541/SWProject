@@ -1,0 +1,7 @@
+{
+  "weight" : "./my-yolov3_last.weights",
+  "class_list" : "./obj.names",
+  "cfg" : "my-yolov3.cfg",
+  "dir_save" : "./Save",
+  "dir_working" : "./Demo"
+}
